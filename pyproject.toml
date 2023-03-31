@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "full-spectrum-api"
+version = "0.1.0"
+description = "API for Full Spectrum Eggs site"
+authors = ["athelia <hi@athelia.codes>"]
+readme = "README.md"
+packages = [{include = "full_spectrum_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+SQLAlchemy = "^2.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
