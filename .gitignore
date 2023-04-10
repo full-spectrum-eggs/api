@@ -1,3 +1,4 @@
 config.sh
 *.pyc
 .idea
+.env
