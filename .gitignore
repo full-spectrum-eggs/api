@@ -2,3 +2,4 @@ config.sh
 *.pyc
 .idea
 .env
+.env.dev
