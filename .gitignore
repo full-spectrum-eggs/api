@@ -1,5 +1,5 @@
-config.sh
 *.pyc
 .idea
 .env
 .env.dev
+20230119.csv

@@ -4,12 +4,17 @@ version = "0.1.0"
 description = "API for Full Spectrum Eggs site"
 authors = ["athelia <hi@athelia.codes>"]
 readme = "README.md"
-packages = [{include = "full_spectrum_api"}]
+packages = [{include = "full-spectrum-api"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+flask = "^2.2.3"
+flask-sqlalchemy = "^3.0.3"
 requests = "^2.28.2"
 SQLAlchemy = "^2.0.7"
+poetry-plugin-dotenv = "^0.4.1"
+psycopg2 = "^2.9.6"  # Required for SQL Alchemy with psql
+pytest = "^7.3.0"
 
 
 [build-system]
